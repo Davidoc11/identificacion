@@ -18,6 +18,11 @@ public class IdentificarRestApplication {
         SpringApplication.run(IdentificarRestApplication.class, args);
     }
 
+    
+    
+    
+    
+    
     @Bean
     public MessageSource messageSource() {
         ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
