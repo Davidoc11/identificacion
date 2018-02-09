@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import com.neurotec.biometrics.NTemplateSize;
 import com.neurotec.biometrics.client.NBiometricClient;
 import java.util.Locale;
 import org.springframework.boot.SpringApplication;
@@ -8,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
 
@@ -18,6 +16,7 @@ public class IdentificarRestApplication {
         SpringApplication.run(IdentificarRestApplication.class, args);
     }
 
+    
     
     
     
